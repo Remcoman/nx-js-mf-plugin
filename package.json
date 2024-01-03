@@ -35,7 +35,7 @@
     "verdaccio": "^5.0.4"
   },
   "type": "commonjs",
-  "main": "./src/index.js",
-  "typings": "./src/index.d.ts",
-  "generators": "./generators.json"
+  "main": "./dist/nx-js-mf-plugin/src/index.js",
+  "typings": "./dist/nx-js-mf-plugin/src/index.d.ts",
+  "generators": "./dist/nx-js-mf-plugin/generators.json"
 }
