@@ -1,0 +1,14 @@
+{
+  "generators": {
+    "host": {
+      "factory": "./src/generators/host/generator",
+      "schema": "./src/generators/host/schema.json",
+      "description": "host generator"
+    },
+    "remote": {
+      "factory": "./src/generators/remote/generator",
+      "schema": "./src/generators/remote/schema.json",
+      "description": "remote generator"
+    }
+  }
+}

@@ -55,7 +55,8 @@
         "lintFilePatterns": [
           "./src",
           "{projectRoot}/package.json",
-          "./package.json"
+          "./package.json",
+          "generators.json"
         ]
       }
     },
