@@ -5,7 +5,9 @@
   "files": [
     "dist/nx-js-mf-plugin"
   ],
-  "scripts": {},
+  "scripts": {
+    "prepack": "npx nx build nx-js-mf-plugin"
+  },
   "dependencies": {
     "@swc/helpers": "~0.5.2",
     "tslib": "^2.3.0"
