@@ -2,8 +2,11 @@
   "name": "nx-js-mf-plugin",
   "version": "0.0.2",
   "license": "MIT",
+  "files": [
+    "dist/nx-js-mf-plugin/**/*"
+  ],
   "scripts": {
-    "prepack": "npx nx build nx-js-mf-plugin"
+    "prepack": "rm -rf dist/ && npx nx build nx-js-mf-plugin && mv dist/nx-js-mf-plugin/* dist && rm -r dist/nx-js-mf-plugin"
   },
   "dependencies": {
     "@swc/helpers": "~0.5.2",
